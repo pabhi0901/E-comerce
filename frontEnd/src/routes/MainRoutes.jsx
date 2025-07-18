@@ -5,7 +5,7 @@ import Products from '../pages/Products'
 import Login from '../pages/Login'
 import Register from "../pages/Register"
 import CreateProduct from '../pages/admin/CreateProduct'
-import UpdateProduct from '../pages/admin/UpdateProduct'
+import Detailed_UpdateProduct from '../pages/admin/Detailed_UpdateProduct'
 
 const MainRoutes = () => {
 
@@ -17,7 +17,7 @@ const MainRoutes = () => {
         <Route  path='/login' element={<Login />}/>
         <Route  path='/register' element={<Register />}/>
         <Route  path='admin/create-product' element={<CreateProduct />} />
-        <Route  path='admin/update-product/:id' element = {<UpdateProduct />}/> 
+        <Route  path='detailed-update-product/:id' element = {<Detailed_UpdateProduct />}/> 
       </Routes>
     </div>
   

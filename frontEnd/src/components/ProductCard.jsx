@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link} from 'react-router-dom'
 
 const ProductCard = (props) => {
    let product = props.product
+
   return (
-    <div key={product.id} 
-    className='w-[48%] h-[28vh] mb-3 mx-0.5 pb-2 box-border bg-white flex flex-col shadow-2xl rounded-xl
-    lg:w-[20vw] lg:h-[50vh] lg:pb-0 lg:mb-4'>
+    <Link to={`/detailed-update-product/${product.id}`}
+    key={product.id} 
+    className='w-[48%] h-[28vh] mb-3 mx-0.5 pb-2 box-border bg-white flex flex-col shadow-xl rounded-xl
+    lg:w-[20vw] lg:h-[50vh] lg:pb-0 lg:mb-4 hover:scale-105 hover:shadow-4xl transition duration-500 ease-in-out'>
         <img 
         src={product.image} alt="" 
         className='w-full h-1/2 object-cover rounded-t-xl lg:h-4/6 '/>
@@ -24,7 +27,7 @@ const ProductCard = (props) => {
         </div>
       
 
-    </div>
+    </Link>
   )
 }
 

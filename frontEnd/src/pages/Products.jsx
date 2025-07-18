@@ -1,11 +1,15 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import ProductCard from '../components/ProductCard';
+import { asyncloadProducts } from '../store/actions/ProductActions';
 
 const Products = () => {
-
+  const dispatch = useDispatch()
+  useEffect(()=>{
+    dispatch(asyncloadProducts())
+  },[])
     const products = useSelector((state)=>state.productReducer.products)
-    let productComponent = products.map((product)=>{
+    let productComponent = products?.map((product)=>{
      return <ProductCard product = {product} />
     })
     console.log(productComponent);

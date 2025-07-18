@@ -12,252 +12,249 @@
       "name": "Nirmala",
       "email": "nirmala@p.com",
       "password": "123",
+      "isAdmin": true
+    },
+    {
+      "id": "vB-N7tpk5Ezxn_3rSRLLR",
+      "name": "Abhi",
+      "email": "abhi@a.com",
+      "password": "123",
       "isAdmin": false
     }
   ],
-
-  "products":[
-  {
-    "id": "VwX345yzA678bCd901E3",
-    "title": "Rose Gold Bangle",
-    "price": 89.99,
-    "description": "18K rose gold plated bangle with adjustable sizing and secure clasp.",
-    "category": "jewelery",
-    "image": "https://images.unsplash.com/photo-1606293926249-ed22e446d476?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZCUyMGJhbmdsZSUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "FgH456ijK789lMn012P4",
-    "title": "Women's Silk Scarf",
-    "price": 45.99,
-    "description": "Hand-rolled edges with vibrant floral print, 100% pure silk.",
-    "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1608232757598-b20f7cdc91dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWVuJTIwc2NhcmYlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
-  },
-  {
-    "id": "QrS567tuV890wXy123Z5",
-    "title": "Bluetooth Trackpad",
-    "price": 79.99,
-    "description": "Multi-touch glass surface with rechargeable battery and USB-C charging.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1573978828027-e830975e272c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ymx1dG9vdGglMjB0cmFja3BhZCUyMHdoaXRlfGVufDB8fDB8fHww"
-  },
-  {
-    "id": "AbC678deF901gHi234J6",
-    "title": "Men's Wool Blend Suit",
-    "price": 249.95,
-    "description": "Two-piece suit with stretch fabric and modern slim fit tailoring.",
-    "category": "men's clothing",
-    "image": "https://images.unsplash.com/photo-1521485714898-f097eb6fc5b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fE1lbidzJTIwV29vbCUyMEJsZW5kJTIwU3VpdHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "KlM789noP012qRs345T7",
-    "title": "Diamond Tennis Necklace",
-    "price": 599.99,
-    "description": "14K white gold necklace with 1ct total weight of round diamonds.",
-    "category": "jewelery",
-    "image": "https://images.unsplash.com/photo-1610223516037-98a56e639456?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fERpYW1vbmQlMjBUZW5uaXMlMjBOZWNrbGFjZXxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "UvW890xyZ123aBc456D8",
-    "title": "Women's Leather Jacket",
-    "price": 199.99,
-    "description": "Genuine lambskin leather with quilted lining and zippered pockets.",
-    "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1727515546577-f7d82a47b51d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V29tZW4ncyUyMExlYXRoZXIlMjBKYWNrZXQlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "EfG901hiJ234kLm567N9",
-    "title": "Compact Projector",
-    "price": 129.99,
-    "description": "Portable 1080p HD projector with built-in speaker and HDMI input.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1651592284375-3ab6b6f99f8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENvbXBhY3QlMjBQcm9qZWN0b3IlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "OpQ012rsT345uVw678X10",
-    "title": "Men's Performance Hoodie",
-    "price": 64.95,
-    "description": "Lightweight hoodie with moisture-wicking fabric and thumbholes.",
-    "category": "men's clothing",
-    "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
-  },
-  {
-    "id": "YzA123bcD456eFg789H11",
-    "title": "Pearl Drop Earrings",
-    "price": 79.99,
-    "description": "Cultured freshwater pearls with sterling silver hooks and findings.",
-    "category": "jewelery",
-    "image": "https://plus.unsplash.com/premium_photo-1739548332624-399962d3a265?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVhcmwlMjBEcm9wJTIwRWFycmluZ3MlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "IjK234lmN567oPq890R12",
-    "title": "Women's Cashmere Sweater",
-    "price": 149.99,
-    "description": "100% pure cashmere crewneck sweater in seasonal colors.",
-    "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
-  },
-  {
-    "id": "StU345vwX678yZa901B13",
-    "title": "Noise Cancelling Headphones",
-    "price": 179.99,
-    "description": "Over-ear headphones with 30-hour battery life and built-in mic.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1674658556545-f18d4080ab6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhZHBob25lJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "CdE456fgH789iJk012L14",
-    "title": "Men's Leather Dress Shoes",
-    "price": 129.95,
-    "description": "Full-grain leather oxfords with cushioned insoles and rubber soles.",
-    "category": "men's clothing",
-    "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1lbidzJTIwTGVhdGhlciUyMERyZXNzJTIwU2hvZXMlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "MnO567pqR890sTu123V15",
-    "title": "Gold Signet Ring",
-    "price": 149.99,
-    "description": "14K yellow gold ring with polished finish and optional engraving.",
-    "category": "jewelery",
-    "image": "https://images.unsplash.com/photo-1655707063092-5c4509de41b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R29sZCUyMFNpZ25ldCUyMFJpbmclMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "WxY678zaB901cDe234F16",
-    "title": "Women's Wool Coat",
-    "price": 189.99,
-    "description": "Double-breasted wool coat with notched lapel and belt closure.",
-    "category": "women's clothing",
-    "image": "https://plus.unsplash.com/premium_photo-1737370659011-3de25cbb6322?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fFdvbWVuJ3MlMjB3aW50ZXIlMjAlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "GhI789jkL012mNo345P17",
-    "title": "Smartphone Gimbal",
-    "price": 89.99,
-    "description": "3-axis stabilization for smooth video recording on smartphones.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1601220363009-f7e66d095649?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFNtYXJ0cGhvbmUlMjBHaW1iYWwlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "QrS890tuV123wXy456Z18",
-    "title": "Men's Performance T-Shirt",
-    "price": 29.95,
-    "description": "Moisture-wicking fabric with UPF 50+ sun protection.",
-    "category": "men's clothing",
-    "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
-  },
-  {
-    "id": "AbC901deF234gHi567J19",
-    "title": "Silver Cuff Bracelet",
-    "price": 69.99,
-    "description": "925 sterling silver cuff with hammered texture and adjustable fit.",
-    "category": "jewelery",
-    "image": "https://plus.unsplash.com/premium_photo-1699038832392-d78bb9327250?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsdmVyJTIwQ3VmZiUyMEJyYWNlbGV0JTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "KlM012noP345qRs678T20",
-    "title": "Women's Linen Dress",
-    "price": 79.99,
-    "description": "Breathable linen dress with concealed pockets and belt detail.",
-    "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1517472292914-9570a594783b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V29tZW4ncyUyMExpbmVuJTIwRHJlc3MlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "UvW123xyZ456aBc789D21",
-    "title": "Memory Card",
-    "price": 199.99,
-    "description": "Lightning-fast NVMe SSD with USB-C connectivity and rugged case.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1665836700428-45bb099ca888?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGV4dGVybmwlMjBtZW1vcnklMjBjYXJkJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "EfG234hiJ567kLm890N22",
-    "title": "Men's Cashmere Sweater",
-    "price": 159.95,
-    "description": "100% pure cashmere v-neck sweater in classic colors.",
-    "category": "men's clothing",
-    "image": "https://images.unsplash.com/photo-1611312449545-94176309c857?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVuJ3MlMjBDYXNobWVyZSUyMFN3ZWF0ZXIlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "OpQ345rsT678uVw901X23",
-    "title": "Diamond Stud Earrings",
-    "price": 249.99,
-    "description": "14K white gold studs with 0.25ct total weight of diamonds.",
-    "category": "jewelery",
-    "image": "https://images.unsplash.com/photo-1656109801168-699967cf3ba9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fERpYW1vbmQlMjBTdHVkJTIwRWFycmluZ3MlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "YzA456bcD789eFg012H24",
-    "title": "Women's Leather Handbag",
-    "price": 179.99,
-    "description": "Genuine leather crossbody bag with multiple compartments.",
-    "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1713425886033-91a7d74b26a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8JTIyV29tZW4ncyUyMExlYXRoZXIlMjBIYW5kYmFnJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "IjK567lmN890oPq123R25",
-    "title": "Wireless Gaming Mouse",
-    "price": 69.99,
-    "description": "RGB gaming mouse with 16000 DPI and 50-hour battery life.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1625750188088-f6cd6756349c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2lyZWxlc3MlMjBnYW1pbmclMjBtb3VzZSUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D"
-  },
+  "products": [
     {
-    "id": "aBcD123efG456hIj789K1",
-    "title": "Charging Stand",
-    "price": 34.99,
-    "description": "Qi-certified charging stand for phones and earbuds with anti-slip base.",
-    "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1705147287661-f198b656f735?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hhcmdpbmclMjBzdGFuZCUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D"
-  },
-  {
-    "id": "LmN234opQ567rSt890U2",
-    "title": "Men's Slim Fit Jeans",
-    "price": 59.95,
-    "description": "Stretch denim with reinforced stitching and modern tapered fit.",
-    "category": "men's clothing",
-    "image": "https://plus.unsplash.com/premium_photo-1690820317187-e41ce9c70bda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amVhbnMlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
-  },
-  {
-    "id": "StU678vwX901yZa234B26",
-    "title": "Men's Wool Scarf",
-    "price": 49.95,
-    "description": "100% merino wool scarf in herringbone pattern, various colors.",
-    "category": "men's clothing",
-    "image": "https://images.unsplash.com/photo-1609803384069-19f3e5a70e75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHdvb2wlMjBzY2FyZiUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D"
-  },
-  {
-    "id": "CdE789fgH012iJk345L27",
-    "title": "Gold Plated Bangle Set",
-    "price": 89.99,
-    "description": "Set of three 18K gold plated bangles with different textures.",
-    "category": "jewelery",
-    "image": "https://images.unsplash.com/photo-1728381031272-ba3f537feadd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGQlMjBwbGF0ZXQlMjBiYW5nbGUlMjBzZXR8ZW58MHx8MHx8fDA%3D"
-  },
-  {
-    "id": "MnO890pqR123sTu456V28",
-    "title": "Women's Silk Blouse",
-    "price": 89.99,
-    "description": "100% pure silk button-down blouse with french cuffs.",
-    "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1623052760790-9605a8579730?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNpbGslMjBibG91c2UlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "WxY901zaB234cDe567F29",
-    "title": "Portable Monitor",
-    "price": 159.99,
-    "description": "15.6\" Full HD USB-C portable monitor with protective cover.",
-    "category": "electronics",
-    "image": "https://plus.unsplash.com/premium_photo-1680721575441-18d5a0567269?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1vbml0b3IlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  },
-  {
-    "id": "GhI012jkL345mNo678P30",
-    "title": "Men's Leather Wallet",
-    "price": 39.95,
-    "description": "Full-grain leather bifold wallet with RFID protection.",
-    "category": "men's clothing",
-    "image": "https://plus.unsplash.com/premium_photo-1682277278403-b6676d98a110?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHx3YWxsZXQlMjBwcm9kdWN0fGVufDB8fDB8fHww"
-  }
-]
-,
+      "id": "VwX345yzA678bCd901E3",
+      "title": "Rose Gold Bangle",
+      "price": 89.99,
+      "description": "18K rose gold plated bangle with adjustable sizing and secure clasp.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1606293926249-ed22e446d476?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZCUyMGJhbmdsZSUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "FgH456ijK789lMn012P4",
+      "title": "Women's Silk Scarf ",
+      "price": "50",
+      "description": "Hand-rolled edges with vibrant floral print, 100% pure silk.",
+      "category": "women's clothing",
+      "image": "https://images.unsplash.com/photo-1608232757598-b20f7cdc91dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWVuJTIwc2NhcmYlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "QrS567tuV890wXy123Z5",
+      "title": "Bluetooth Trackpad",
+      "price": 79.99,
+      "description": "Multi-touch glass surface with rechargeable battery and USB-C charging.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1573978828027-e830975e272c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ymx1dG9vdGglMjB0cmFja3BhZCUyMHdoaXRlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "AbC678deF901gHi234J6",
+      "title": "Men's Wool Blend Suit",
+      "price": 249.95,
+      "description": "Two-piece suit with stretch fabric and modern slim fit tailoring.",
+      "category": "men's clothing",
+      "image": "https://images.unsplash.com/photo-1521485714898-f097eb6fc5b9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fE1lbidzJTIwV29vbCUyMEJsZW5kJTIwU3VpdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "KlM789noP012qRs345T7",
+      "title": "Diamond Tennis Necklace",
+      "price": 599.99,
+      "description": "14K white gold necklace with 1ct total weight of round diamonds.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1610223516037-98a56e639456?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fERpYW1vbmQlMjBUZW5uaXMlMjBOZWNrbGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "UvW890xyZ123aBc456D8",
+      "title": "Women's Leather Jacket",
+      "price": 199.99,
+      "description": "Genuine lambskin leather with quilted lining and zippered pockets.",
+      "category": "women's clothing",
+      "image": "https://images.unsplash.com/photo-1727515546577-f7d82a47b51d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V29tZW4ncyUyMExlYXRoZXIlMjBKYWNrZXQlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "EfG901hiJ234kLm567N9",
+      "title": "Compact Projector",
+      "price": 129.99,
+      "description": "Portable 1080p HD projector with built-in speaker and HDMI input.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1651592284375-3ab6b6f99f8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENvbXBhY3QlMjBQcm9qZWN0b3IlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "OpQ012rsT345uVw678X10",
+      "title": "Men's Performance Hoodie",
+      "price": 64.95,
+      "description": "Lightweight hoodie with moisture-wicking fabric and thumbholes.",
+      "category": "men's clothing",
+      "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "YzA123bcD456eFg789H11",
+      "title": "Pearl Drop Earrings",
+      "price": 79.99,
+      "description": "Cultured freshwater pearls with sterling silver hooks and findings.",
+      "category": "jewelery",
+      "image": "https://plus.unsplash.com/premium_photo-1739548332624-399962d3a265?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVhcmwlMjBEcm9wJTIwRWFycmluZ3MlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "IjK234lmN567oPq890R12",
+      "title": "Women's Cashmere Sweater",
+      "price": 149.99,
+      "description": "100% pure cashmere crewneck sweater in seasonal colors.",
+      "category": "women's clothing",
+      "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "StU345vwX678yZa901B13",
+      "title": "Noise Cancelling Headphones",
+      "price": 179.99,
+      "description": "Over-ear headphones with 30-hour battery life and built-in mic.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1674658556545-f18d4080ab6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhZHBob25lJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "CdE456fgH789iJk012L14",
+      "title": "Men's Leather Dress Shoes",
+      "price": 129.95,
+      "description": "Full-grain leather oxfords with cushioned insoles and rubber soles.",
+      "category": "men's clothing",
+      "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1lbidzJTIwTGVhdGhlciUyMERyZXNzJTIwU2hvZXMlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "MnO567pqR890sTu123V15",
+      "title": "Gold Signet Ring",
+      "price": 149.99,
+      "description": "14K yellow gold ring with polished finish and optional engraving.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1655707063092-5c4509de41b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R29sZCUyMFNpZ25ldCUyMFJpbmclMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "WxY678zaB901cDe234F16",
+      "title": "Women's Wool Coat",
+      "price": 189.99,
+      "description": "Double-breasted wool coat with notched lapel and belt closure.",
+      "category": "women's clothing",
+      "image": "https://plus.unsplash.com/premium_photo-1737370659011-3de25cbb6322?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fFdvbWVuJ3MlMjB3aW50ZXIlMjAlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "GhI789jkL012mNo345P17",
+      "title": "Smartphone Gimbal",
+      "price": 89.99,
+      "description": "3-axis stabilization for smooth video recording on smartphones.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1601220363009-f7e66d095649?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFNtYXJ0cGhvbmUlMjBHaW1iYWwlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "QrS890tuV123wXy456Z18",
+      "title": "Men's Performance T-Shirt",
+      "price": 29.95,
+      "description": "Moisture-wicking fabric with UPF 50+ sun protection.",
+      "category": "men's clothing",
+      "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "AbC901deF234gHi567J19",
+      "title": "Silver Cuff Bracelet",
+      "price": 69.99,
+      "description": "925 sterling silver cuff with hammered texture and adjustable fit.",
+      "category": "jewelery",
+      "image": "https://plus.unsplash.com/premium_photo-1699038832392-d78bb9327250?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsdmVyJTIwQ3VmZiUyMEJyYWNlbGV0JTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "KlM012noP345qRs678T20",
+      "title": "Women's Linen Dress",
+      "price": 79.99,
+      "description": "Breathable linen dress with concealed pockets and belt detail.",
+      "category": "women's clothing",
+      "image": "https://images.unsplash.com/photo-1517472292914-9570a594783b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V29tZW4ncyUyMExpbmVuJTIwRHJlc3MlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "UvW123xyZ456aBc789D21",
+      "title": "Memory Card",
+      "price": 199.99,
+      "description": "Lightning-fast NVMe SSD with USB-C connectivity and rugged case.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1665836700428-45bb099ca888?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGV4dGVybmwlMjBtZW1vcnklMjBjYXJkJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "EfG234hiJ567kLm890N22",
+      "title": "Men's Cashmere Sweater",
+      "price": 159.95,
+      "description": "100% pure cashmere v-neck sweater in classic colors.",
+      "category": "men's clothing",
+      "image": "https://images.unsplash.com/photo-1611312449545-94176309c857?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVuJ3MlMjBDYXNobWVyZSUyMFN3ZWF0ZXIlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "OpQ345rsT678uVw901X23",
+      "title": "Diamond Stud Earrings",
+      "price": 249.99,
+      "description": "14K white gold studs with 0.25ct total weight of diamonds.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1656109801168-699967cf3ba9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fERpYW1vbmQlMjBTdHVkJTIwRWFycmluZ3MlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "YzA456bcD789eFg012H24",
+      "title": "Women's Leather Handbag",
+      "price": 179.99,
+      "description": "Genuine leather crossbody bag with multiple compartments.",
+      "category": "women's clothing",
+      "image": "https://images.unsplash.com/photo-1713425886033-91a7d74b26a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8JTIyV29tZW4ncyUyMExlYXRoZXIlMjBIYW5kYmFnJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "IjK567lmN890oPq123R25",
+      "title": "Wireless Gaming Mouse",
+      "price": 69.99,
+      "description": "RGB gaming mouse with 16000 DPI and 50-hour battery life.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1625750188088-f6cd6756349c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2lyZWxlc3MlMjBnYW1pbmclMjBtb3VzZSUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "aBcD123efG456hIj789K1",
+      "title": "Charging Stand",
+      "price": 34.99,
+      "description": "Qi-certified charging stand for phones and earbuds with anti-slip base.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1705147287661-f198b656f735?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hhcmdpbmclMjBzdGFuZCUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "LmN234opQ567rSt890U2",
+      "title": "Men's Slim Fit Jeans",
+      "price": 59.95,
+      "description": "Stretch denim with reinforced stitching and modern tapered fit.",
+      "category": "men's clothing",
+      "image": "https://plus.unsplash.com/premium_photo-1690820317187-e41ce9c70bda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amVhbnMlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "StU678vwX901yZa234B26",
+      "title": "Men's Wool Scarf",
+      "price": 49.95,
+      "description": "100% merino wool scarf in herringbone pattern, various colors.",
+      "category": "men's clothing",
+      "image": "https://images.unsplash.com/photo-1609803384069-19f3e5a70e75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVucyUyMHdvb2wlMjBzY2FyZiUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "CdE789fgH012iJk345L27",
+      "title": "Gold Plated Bangle Set",
+      "price": 89.99,
+      "description": "Set of three 18K gold plated bangles with different textures.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1728381031272-ba3f537feadd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGQlMjBwbGF0ZXQlMjBiYW5nbGUlMjBzZXR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "CdE789fgH012iJk345L27",
+      "title": "Gold Plated Bangle Set",
+      "price": 89.99,
+      "description": "Set of three 18K gold plated bangles with different textures.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1728381031272-ba3f537feadd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGQlMjBwbGF0ZXQlMjBiYW5nbGUlMjBzZXR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "MnO890pqR123sTu456V28",
+      "title": "Women's Silk Blouse",
+      "price": 89.99,
+      "description": "100% pure silk button-down blouse with french cuffs.",
+      "category": "women's clothing",
+      "image": "https://images.unsplash.com/photo-1623052760790-9605a8579730?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNpbGslMjBibG91c2UlMjBwcm9kdWN0fGVufDB8fDB8fHww"
+    }
+  ],
   "cart": []
 }
